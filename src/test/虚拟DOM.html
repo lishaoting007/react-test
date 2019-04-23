@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+  // 虚拟 DOM 是框架中的概念
+  // 程序员用JS对象来手动模拟DOM嵌套关系
+  // 为了实现页面元素的高效更行
+  var div = {
+    targetName: 'div',
+    attr: {
+      title: 'div',
+      class: 'container',
+      id: 'container',
+      'data-index': 0
+    },
+    children: [{
+      targetName: 'h1',
+      attr: {},
+      children: [
+        '这是一个大标题'
+      ]
+    }]
+  }
+</script>
+
+</html>
